@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Forms em HTML</title>
+    <meta charset="utf-8" />
+</head>
+<body>
+    <header>
+        <h1>Exemplo de formulário no HTML</h1>
+    </header>
+    <article>
+        <form action="#">
+            <label for="cNome">Nome:</label><br />
+            <input type="text" size=50 name="tNome" id="cNome" required="required" />
+            <br /><br />
+            <p>Sexo:</p>
+            <input type="radio" name="tSexo" id="cMas" value="M" />
+            <label for="cMasc">Masculino</label><br />
+            <input type="radio" name="tSexo" id="cFem" value="F" />
+            <label for="cFem">Feminino</label><br />
+            <input type="radio" name="tSexo" id="cOut" value="O" />
+            <label for="cOut">Outro</label>
+            <br /><br />
+            <p>Qual meio de transporte você usa?</p>
+            <input type="checkbox" id="vehicle1" name="transporte1" value="Bike" />
+            <label for="transporte1"> Bicicleta</label><br />
+            <input type="checkbox" id="vehicle2" name="transporte2" value="Car" />
+            <label for="transporte2"> Carro</label><br />
+            <input type="checkbox" id="vehicle3" name="transporte3" value="Metro" />
+            <label for="transporte3"> Metrô</label><br />
+            <input type="checkbox" id="vehicle3" name="transporte4" value="Bus" />
+            <label for="transporte4"> Ônibus</label>
+            <br /><br />
+            <input type="submit" value="Enviar" />
+        </form>        
+    </article>
+    <footer>
+        <small>Copyright<sup>&copy;</sup> - Todos os direitos reservados.</small>
+    </footer>
+</body>
+</html>
