@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/*
+  Folha de estilo CSS em um arquivo externo
+  Autor: Coloque seu nome aqui
+  Data: 31/10/2020
+
+  Nome do arquivo: estilo.css
+*/
+
+body {
+    background-color: #e6e6fa; 
+    color: #191970; 
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#primeiro_nome {
+    background-color: yellow;
+}
+p#sobrenome{
+    background-color: grey;
+}

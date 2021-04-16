@@ -1,0 +1,15 @@
+@charset "utf-8";
+/*
+  Folha de estilo CSS em um arquivo externo
+  Autor: Coloque seu nome aqui
+  Data: 31/10/2020
+  Nome do arquivo: estilo_02.css
+*/
+* {
+    background-color: #49274A;
+    color: #F8EEE7;
+}
+article p {
+    background-color: #F4DECB;
+    color: black;
+}
