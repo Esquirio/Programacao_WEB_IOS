@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Tahoma", sans-serif;
+    background: #f4f4f4;
+    color: #fff;
+}
+
+/* Header */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background: #492265;
+}
+
+.header img {
+    flex: 1;
+    width: 50%;
+    padding: 10px;
+}
+
+.header div {
+    flex: 2;
+    padding: 10px;
+    text-align: center;
+}
+
+.header div h1 {
+    margin-bottom: 10px;
+}
+
+/* Section Container*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.flex-01, .flex-02, .flex-03 {
+    padding: 10px;
+    text-align: justify;
+    border: 1px #333 solid;
+    border-radius: 20px;
+    margin: 10px 10px;
+}
+
+.flex-01 h2 {
+    color: #492265;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    border-bottom: 1px #333 solid;
+    margin-bottom: 10px;
+}
+
+.flex-02 h2 {
+    color: #D9531E;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    border-bottom: 1px #333 solid;
+    margin-bottom: 10px;
+}
+
+.flex-03 h2 {
+    color: #0194D3;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px;
+    border-bottom: 1px #333 solid;
+    margin-bottom: 10px;
+}
+
+.flex-01:hover, .flex-01:hover h2 {
+    background: #7e519e;
+    color: #f4f4f4;
+}
+
+.flex-02:hover, .flex-02:hover h2 {
+    background: #D9531E;
+    color: #f4f4f4;
+}
+
+.flex-03:hover, .flex-03:hover h2 {
+    background: #0194D3;
+    color: #f4f4f4;
+}
+
+/* Section cursos */
+.cursos {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #333;
+    padding: 0px 20px 0px 20px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.cursos article {
+    width: 30%;
+    box-shadow: 0 10px 15px 0 rgb(122, 122, 122);;
+    border-radius: 20px;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.cursos h2 {
+    height: 3.5rem;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: #333 1px dashed;
+}
+
+.cursos p {
+    padding-top: 1rem;
+    text-align: justify;
+}
+
+
+/* Footer */
+.footer {
+    padding-top: 40px;
+    background: #492265;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-flex-01, .footer-flex-02, .footer-flex-03, .footer-flex-04 {
+    width: 25%;
+}
+
+.footer-flex-01 img {
+    padding: 0 10px 10px 10px;
+    width: 200px;
+    align-items: left;
+}
+
+.footer-flex-01 p {
+    margin: 0 30px 0 10px;
+    text-align: justify;
+}
+
+.footer-flex-02 ul {
+    list-style: none;
+}
+
+.footer-flex-02 ul li {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-flex-02 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footer-flex-03 h2, .footer-flex-04 h2 {
+    font-size: 1rem;
+    padding-bottom: 20px;
+}
+
+.footer-flex-03 p, .footer-flex-04 p {
+    margin-right: 20px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.footer-flex-03 .btn-01 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.75rem;
+    background: #fff;
+    border: 0;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    color: #D9531E;
+}
+
+.footer-flex-03 .btn-01:hover {
+    background: #D9531E;
+    color: #fff;
+}
+
+.footer-flex-04 .btn-02 {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.75rem;
+    background: #fff;
+    border: 0;
+    padding: 15px 20px 15px 20px;
+    border-radius: 5px;
+    color: #0194D3;
+}
+
+.footer-flex-04 .btn-02:hover {
+    background: #0194D3;
+    color: #fff;
+}
