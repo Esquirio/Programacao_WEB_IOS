@@ -44,3 +44,5 @@ const eventClique = () => {
 const mouseEmCima = () => {
     console.log('Mouse está em cima do título');
 };
+
+console.log('\tola');
