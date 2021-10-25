@@ -4,25 +4,36 @@
         <meta charset="UTF-8" />
         <link rel="shortcut icon" href="#" />
         <link rel="stylesheet" href="./css/style.css" />
-        <title>JavaScript com HTML DOM - Parte 03</title>
+        <title>JavaScript com HTML DOM - Parte 04</title>
     </head>
     <body>
         <header>
-            <h1>Formulários</h1>
+            <h1>Agendamento de Clientes</h1>
         </header>
         <section class="container">
             <form id="my-form">
-                <h1>Add User</h1>
+                <h1>Adicionar Usuário</h1>
                 <div class="msg"></div>
                 <div>
-                    <label for="name">Name:</label>
+                    <label for="name">Nome:</label>
                     <input type="text" id="name" />
                 </div>
                 <div>
-                    <label for="email">Email:</label>
+                    <label for="email">E-mail:</label>
                     <input type="text" id="email" />
                 </div>
-                <input class="btn" type="submit" value="Submit" />
+                <div class="msg_email"></div>
+                <div>
+                    <label for="horario">Horário:</label>
+                    <select name="hours" id="horario">
+                        <option value="--">---</option>
+                        <option value="9:00h">9:00</option>
+                        <option value="10:00h">10:00</option>
+                        <option value="11:00h">11:00</option>
+                        <option value="12:00h">12:00</option>
+                    </select>
+                </div>
+                <input class="btn" type="submit" value="Enviar" />
             </form>
             <ul id="users"></ul>
         </section>
