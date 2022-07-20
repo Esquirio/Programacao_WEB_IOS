@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "e.howell@melissa.tv"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch Silva",
+      "email": "c.bauch@yesenia.net"
+    },
+    {
+      "name": "Fernando",
+      "email": "fernando@ios.org.br",
+      "id": 4
+    }
+  ]
+}
